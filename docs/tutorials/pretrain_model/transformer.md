@@ -243,7 +243,7 @@ Mask 非常简单，首先生成一个下三角全 0，上三角全为负无穷�
 
 ### 3.3.3 Decoder的解码
 
-下图展示了Decoder的解码过程，Decoder中的字符预测完之后，会当成输入预测下一个字符，知道遇见终止符号为止。
+下图展示了Decoder的解码过程，Decoder中的字符预测完之后，会当成输入预测下一个字符，直到遇见终止符号为止。
 
 ![](../../images/pretrain_model/Transformer/transformer_decoding_2.gif)
 
